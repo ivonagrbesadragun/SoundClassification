@@ -64,7 +64,7 @@ Predviđene klase ispisuju se za svaki od segmenata:
 Klasifikacijski sustav radi na temelju konvolucijske neuronske mreže. Ulaz u konvolucijsku mrežu je slika - spektrogram, dobiven primjenom gamaton filtera na zvučni signal, s ciljem da se što bolje oponaša ljudsko uho.
 
 
-![Transformacija podataka](myexample.png)
+![Transformacija podataka](https://github.com/ivonagrbesadragun/SoundClassification/blob/main/diagram.png)
 
 Arhitektura korištene konvolucijske neuronske mreže prikazana je na sljedećoj slici. 
 ![Slojevi konvolucijske neuronske mreže](layers.PNG)
