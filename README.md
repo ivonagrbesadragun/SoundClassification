@@ -58,7 +58,7 @@ Classify(p)
 ```
 
 Predviđene klase ispisuju se za svaki od segmenata: 
-![Primjer ispisa](ispis.PNG)
+![Primjer ispisa](https://github.com/ivonagrbesadragun/SoundClassification/blob/main/ispis.PNG)
 
 ## Pojedinosti o sustavu
 Klasifikacijski sustav radi na temelju konvolucijske neuronske mreže. Ulaz u konvolucijsku mrežu je slika - spektrogram, dobiven primjenom gamaton filtera na zvučni signal, s ciljem da se što bolje oponaša ljudsko uho.
