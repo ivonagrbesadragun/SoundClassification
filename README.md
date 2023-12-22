@@ -67,7 +67,7 @@ Klasifikacijski sustav radi na temelju konvolucijske neuronske mreže. Ulaz u ko
 ![Transformacija podataka](https://github.com/ivonagrbesadragun/SoundClassification/blob/main/diagram.png)
 
 Arhitektura korištene konvolucijske neuronske mreže prikazana je na sljedećoj slici. 
-![Slojevi konvolucijske neuronske mreže](layers.PNG)
+![Slojevi konvolucijske neuronske mreže](https://github.com/ivonagrbesadragun/SoundClassification/blob/main/layers.PNG)
 
 U svrhu boljeg učenja mreže dodani su Dropout i Max Pooling slojevi te je definiran Callback od 10 epoha. 
 
