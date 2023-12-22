@@ -73,7 +73,7 @@ U svrhu boljeg učenja mreže dodani su Dropout i Max Pooling slojevi te je defi
 
 Dataset na kojem je trenirana mreža dobiven je iz javne baze respiratornih zvukova ICBHI 2017 Challenge. Iz svakog zvučnog zapisa izrezuju se segmenti od 500 ms s 25% preklapanja, koji se primjenom gamaton filtera pretvaraju u slike. Dobiveni dataset ima 65494 slika, svaka je dimenzije 128 x 128 s 3 kanala boje. Na sljedećoj slici dan je primjer spektrograma za zvučni zapis iz klase normal. 
 
-![Primjer spektrograma za zapis iz klase normal](data_rgb/normal/patient1image0.0.jpg)
+![Primjer spektrograma za zapis iz klase normal](https://github.com/ivonagrbesadragun/SoundClassification/blob/main/patient1image0.0.jpg)
 
 Treniranje se provodilo na slučajno izabranim podskupovima od po 1536 elemenata, pri čemu je validacijski split 25%. Korištena funkcija gubitka je Sparse Categorical Crossentropy, promatrana metrika Sparse Categorical Accuracy, a optimizator Adam uz stopu učenja 0.001. 
 
